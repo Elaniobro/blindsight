@@ -1,0 +1,9 @@
+/* TEAM */                           
+Web Developer: unknown.
+
+/* SITE */                          
+Last update: 2007/09/03                          
+Standards: none.                         
+
+/* NOTES */
+Elan Trybuch took over development and design. He inherited the code, and flat images. He had to re-create the layerd photoshop file to modify the site, adding additional navigational elements and pages.

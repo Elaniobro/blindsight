@@ -1,0 +1,8 @@
+*.ste
+*.flv
+*.fla
+*.xml
+assets/*
+src/*
+com/*
+www/etrybuch/*

@@ -1,0 +1,268 @@
+/* CSS Document */
+
+html, body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:url(img/background.jpg);
+	background-repeat: repeat-x;
+	background-color: #d7e6ff;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+ }
+
+a {
+	color:#f00;
+	text-decoration: underline ;
+}
+
+a:visited {
+	color:#800000;  
+	}
+a:hover { 
+	color:#4791de; 
+	}
+
+
+a img { border:0; }
+
+
+
+
+/* nuovo Background */
+#left {
+	vertical-align:top;
+	align:right;
+	background:url(img/bg_left-a.jpg) no-repeat;
+	background-position: right top;
+	width:55; 
+	height:598;
+
+}
+
+#leftintro {
+	vertical-align:top;
+	align:right;
+	background:url(img/intro-left-a.jpg) no-repeat;
+	background-position: right top;
+	width:55; 
+	height:598;
+
+}
+
+.bgleft {
+	vertical-align:top;
+	background:url(img/bg_left_rp-a.jpg) repeat-y;
+	background-position: right top;
+
+}
+
+.bgleftintro {
+	vertical-align:top;
+	background:url(img/intro-bgleft.jpg) repeat-y;
+	background-position: right top;
+
+}
+
+
+#right {
+	vertical-align:top;
+	background:url(img/bg_right-a.jpg)  no-repeat;
+	background-position: left top;
+	width:55; 
+	height:700;
+
+}
+
+#rightintro {
+	vertical-align:top;
+	background:url(img/intro-right-a.jpg)  no-repeat;
+	background-position: left top;
+	width:55; 
+	height:700;
+
+}
+
+.bgright{
+	vertical-align:top;
+	background:url(img/bg_right_rp-a.jpg) repeat-y;
+	background-position: left top;
+
+}
+
+.bgrightintro{
+	vertical-align:top;
+	background:url(img/intro-bgright.jpg) repeat-y;
+	background-position: left top;
+
+}
+
+.footer { 
+	background:url(img/footer.jpg) no-repeat;
+	background-position: center top;
+	margin:0;
+	padding:0;
+	align:center;
+	}
+
+.footerintro {
+	background:url(img/intro-footer3.jpg) no-repeat;
+	background-position: center top;
+	margin:0;
+	padding:0;
+	align:center;
+
+	}
+	
+#trailer {
+	vertical-align:top;
+	align:center;
+	display:block;
+	background:url(img/video_bg.jpg) no-repeat;
+	background-position: center top;
+	width:538; 
+	height:330;
+	margin:20;
+	padding:20;
+
+}
+
+/* pagina comune*/
+
+
+
+.nascosto {
+	display:none; width:0; height:0; line-height: 0; overflow: hidden; clip: rect(0,0,0,0); 
+}
+
+
+.corpo{
+	background:url(img/bg_text.jpg);
+	padding: 10px 16px;
+	background-repeat: repeat-y;
+	text-align: center;
+}
+.testo {
+	color:#59779b;
+	font-size: 11px;
+}
+
+a:link .testo{
+	color:#FF0000;
+}
+
+.testoleft {
+	color:#59779b;
+	font-size: 11px;
+	text-align: left;
+	vertical-align: top;
+
+
+}
+
+
+.letter {
+	padding:6px 60px;
+	font-size:11px;
+	color:#6ca6bb;
+	font-style: italic;
+	text-align: left;
+	background-image: url(img/letter_bg.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.bold { font-size:12px; color:#3a6398;}
+
+
+	/*.testo p { text-align:center;}*/
+	
+hr { width:376px; height:1px;  color:#f8e27d; border:0; text-align:center; clear:both; margin:4px auto; }
+
+
+h1, h2, h3, h4 { margin:0px }
+
+h2 { font-size:14px; color:#0e2e59;}
+	h2 a { color:#f00; }
+	h2 a:hover { }
+	
+h3 { font-size:12px; margin: 0px; color:#59779b;}
+	h2 a { color:#f00;  }
+	h2 a:hover { }
+
+.dividi {
+    text-align:center;
+	margin:8px; }
+	
+.hlft {
+	 text-align:left;
+}
+.hrht {
+	 text-align:right;
+}
+.hcnt {
+	text-align:center;
+}
+.s10 {
+	font-size:10px;
+}
+.5rht {	
+	padding-right: 5px;
+}
+.15rht {	
+	padding-right: 15px;
+}
+
+
+
+
+.character-name	{
+	color:#f00;
+}
+
+#production-notes {
+	position:absolute;
+	left: 50%;
+	top: 157px;
+	width: 700px;
+	margin-top: -0px; /* half of the height */
+	margin-left: -300px; /* half of the width */
+	background-image: url(img/letter_bg.gif);
+
+}
+
+.clear	{
+	clear:both;
+}
+
+
+
+#intro{ } 
+#intro .titolo{  width:750px; height:348px; background:url(img/_intro3.jpg) no-repeat; margin:0;}
+#intro .poster{  width:750px; height:346px; background:url(img/intro4.jpg) no-repeat; margin:0;}
+#intro .poster1{  width:750px; height:507px; background:url(img/intro05.jpg) no-repeat; margin:0;}
+#intro .bg{  width:750px; height:140px; background:url(img/intro-bg.jpg); margin:0;}
+#intro .copy{ font-size:13px; color:#f6960a;}
+
+
+
+
+#thefilm{ } 
+#thefilm .titolo{  width:750px; height:70px; background:url(img/title_film-a.jpg) no-repeat; margin:0;}
+
+#production{ } 
+#production .titolo{  width:750px; height:70px; background:url(img/title_production-a.jpg) no-repeat; margin:0;}
+
+#characters{ } 
+#characters .titolo{  width:750px; height:70px; background:url(img/title_characters-a.jpg) no-repeat; margin:0;}
+
+#multimedia{ } 
+#multimedia .titolo{  width:750px; height:70px; background:url(img/title_multimedia-a.jpg) no-repeat; margin:0;}
+
+#facts{ } 
+#facts .titolo{  width:750px; height:70px; background:url(img/title_facts-a.jpg) no-repeat; margin:0;}
+
+#contact{ } 
+#contact .titolo{  width:750px; height:70px; background:url(img/title_contact-a.jpg) no-repeat; margin:0;}
